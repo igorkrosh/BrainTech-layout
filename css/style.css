@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&display=swap');
+
+@keyframes bouncing
+{
+    0%  {transform:translateY(0%);  }
+    50% { transform:translateY(-15%); }
+    100% { transform:translateY(0%); }
+}
+
+.bouncing
+{
+    animation: bouncing 0.4s;
+    animation-iteration-count: 1;
+    animation-fill-mode: normal;
+}
+
+body
+{
+    font-family: 'Open Sans', sans-serif;
+}
+
+button:focus
+{
+    outline: none;
+}
+
+.btn-green
+{
+    color: #ffffff;
+    background-color: #77c344;
+    border: none;
+    text-transform: uppercase;
+    padding: 15px 45px;
+    border-radius: 35px;
+    font-size: 16px;
+    font-weight: 300;
+    transition: 0.5s;
+}
+
+.btn-green.small
+{
+    font-size: 14px;
+    padding: 10px 25px;
+}
+
+.btn-green:hover
+{
+    box-shadow: 0px 0px 10px rgba(119, 195, 68, 0.9);
+}
+
+.navbar
+{
+    background-color: #3a95d4;
+    height: 100px;
+    border-bottom: 1px solid #79b8e3;
+}
+
+.navbar-brand
+{
+    color: #ffffff;
+    display: inline-flex;
+    align-items: center;
+}
+
+.navbar-brand:hover
+{
+    color: #ffffff;
+}
+
+.navbar-brand .logo-text
+{
+    display: inline-block;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.navbar-brand .logo-text span
+{
+    font-weight: 900;
+    font-size: 18px;
+}
+
+.navbar-brand .logo-text span b
+{
+    color: #fbcf04;
+}
+
+.navbar-brand img
+{
+    height: 48px;
+    width: auto;
+    margin-right: 20px;
+    transition: 0.4s ease;
+}
+
+.logo-icon
+{
+    transition: 0.5s;
+}
