@@ -93,7 +93,58 @@ button:focus
     transition: 0.4s ease;
 }
 
-.logo-icon
+#first-banner
 {
-    transition: 0.5s;
+    background-color: #3a95d4;
+    
+    color: #ffffff;
+    background: url("../img/phone.png");
+    background-color: #3a95d4;
+    background-repeat: no-repeat;
+    background-position-x: 80%;
+    background-position-y: 25px;
+}
+
+#first-banner .container
+{
+    padding: 100px 0 80px 0;
+    background: url("../img/clouds.png");
+    background-repeat: no-repeat;
+    background-position-x: right;
+    background-position-y: 80%;
+}
+
+#first-banner .first-text b
+{
+    font-size: 31px;
+}
+
+#first-banner .first-text
+{
+    font-size: 19px;
+    line-height: 50px;
+}
+
+#first-banner .first-text img
+{
+    margin: 0 10px;
+}
+
+#first-banner .second-text b
+{
+    font-size: 68px;
+}
+
+#first-banner .second-text
+{
+    font-size: 28px;
+    font-weight: 900;
+    margin: 35px 0 65px 0;
+}
+
+#first-banner .second-text span
+{
+    margin-left: 5px;
+    font-size: 38px;
+    color: #fbcf04;
 }
