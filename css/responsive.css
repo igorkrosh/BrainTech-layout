@@ -1,0 +1,43 @@
+@media (max-width: 1199.98px) 
+{
+    #first-banner .second-text b
+    {
+        font-size: 52px;
+    }
+
+    #first-banner .second-text h1
+    {
+        font-size: 28px;
+    }
+
+    #first-banner .container
+    {
+        background: url("../img/clouds.png") no-repeat right 60%,  url("../img/phone.png") no-repeat 118% 25px;
+    }
+
+    .packets-wrapper .packet
+    {
+        width: 45%;
+        margin: 20px;
+    }
+
+    .packets-wrapper
+    {
+        justify-content: space-evenly;
+    }
+
+    .step-wrapper .container
+    {
+        padding-bottom: 45px;
+    }
+
+    #mobile-app .container img
+    {
+        width: 100%;
+    }
+
+    #mobile-app .link-wrapper img
+    {
+        width: auto;
+    }
+}
