@@ -42,7 +42,7 @@ button:focus
 .btn-green:hover
 {
     text-decoration: inherit;
-    color: inherit;
+    color: #ffffff;
 }
 
 .btn-green.small
