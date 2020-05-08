@@ -142,23 +142,14 @@ button:focus
 
 #first-banner
 {
-    background-color: #3a95d4;
-    
-    color: #ffffff;
-    background: url("../img/phone.png");
-    background-color: #3a95d4;
-    background-repeat: no-repeat;
-    background-position-x: 80%;
-    background-position-y: 25px;
+    background-color: #3a95d4;    
+    color: #ffffff;    
 }
 
 #first-banner .container
 {
     padding: 100px 0 80px 0;
-    background: url("../img/clouds.png");
-    background-repeat: no-repeat;
-    background-position-x: right;
-    background-position-y: 80%;
+    background: url("../img/clouds.png") no-repeat right 80%,  url("../img/phone.png") no-repeat 110% 25px;
 }
 
 #first-banner .first-text b
@@ -203,7 +194,7 @@ button:focus
 
 #what-is .description
 {
-    padding-right: 80px;
+    padding-right: 35px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -224,6 +215,7 @@ button:focus
 #what-is .photo img
 {
     box-shadow: 35px 35px 15px rgba(0, 0, 0, 0.1);
+    width: 100%;
 }
 
 #investment-protection
@@ -368,6 +360,11 @@ button:focus
 #how-to-start .step-wrapper:nth-child(3)
 {
     background-color: #EEEEEE;
+}
+
+#how-to-start .step-wrapper img
+{
+    width: 100%;
 }
 
 #mobile-app 
