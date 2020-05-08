@@ -17,6 +17,8 @@
 body
 {
     font-family: 'Open Sans', sans-serif;
+    background-color: #f4f4f4;
+    color: #000000;
 }
 
 button:focus
@@ -148,3 +150,34 @@ button:focus
     font-size: 38px;
     color: #fbcf04;
 }
+
+#what-is
+{
+    padding: 100px 0;
+}
+
+#what-is .description
+{
+    padding-right: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#what-is .description h2
+{
+    font-size: 26px;
+    font-weight: 900;
+    margin-bottom: 20px;
+}
+
+#what-is .description p
+{
+    font-size: 16px;
+}
+
+#what-is .photo img
+{
+    box-shadow: 35px 35px 15px rgba(0, 0, 0, 0.1);
+}
+
