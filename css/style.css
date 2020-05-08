@@ -58,6 +58,11 @@ button:focus
     font-weight: 900;
 }
 
+.title b
+{
+    color: #3a95d4;
+}
+
 .navbar
 {
     background-color: #3a95d4;
@@ -189,6 +194,11 @@ button:focus
     box-shadow: 35px 35px 15px rgba(0, 0, 0, 0.1);
 }
 
+#investment-protection
+{
+    padding-bottom: 150px;
+}
+
 .protection-wrapper
 {
     display: flex;
@@ -216,4 +226,69 @@ button:focus
 .protection-wrapper .protection b
 {
     font-weight: 900;
+}
+
+#packets-sect
+{
+    margin-bottom: 115px;
+}
+
+.packets-wrapper
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.packets-wrapper .packet
+{
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 10px;
+    background-color: #ffffff;
+    background-image: url("../img/icons/packets/verify.png");
+    background-repeat: no-repeat;
+    background-position-x: right;
+    padding: 35px;
+}
+
+.packets-wrapper .packet .packet-icon
+{
+    text-align: center;
+    margin: 15px 0 35px 0;
+}
+
+.packets-wrapper .packet h3
+{
+    text-align: left;
+    font-weight: 900;
+    font-size: 20px;
+    margin-bottom: 35px;
+}
+
+.packets-wrapper .packet p
+{
+    margin-bottom: 25px;
+    font-size: 18px;
+}
+
+.packets-wrapper .packet .packet-price
+{
+    font-size: 18px;
+    margin-bottom: 40px;
+    margin-top: 20px;
+}
+
+.packets-wrapper .packet .packet-price b
+{
+    display: block;
+    font-size: 27px;
+    font-weight: 900;
+}
+
+.packets-wrapper .packet .btn-green
+{
+    width: 200px;
 }
