@@ -69,6 +69,32 @@ button:focus
     color: #3a95d4;
 }
 
+.input-form
+{
+    background-color: #ffffff;
+    display: inline-flex;
+    padding-left: 30px;
+    border-radius: 35px;
+    width: 500px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.input-form input
+{
+    width: 60%;
+    height: 30px;
+    border: none;
+    font-size: 14px;
+}
+
+.input-form input:focus
+{
+    outline: none;
+}
+
+
+
 .navbar
 {
     background-color: #3a95d4;
@@ -359,4 +385,25 @@ button:focus
     display: flex;
     flex-direction: column;
     justify-content: center;
+}
+
+#info
+{
+    margin-bottom: 80px;
+}
+
+#info h3
+{
+    font-weight: 900;
+    font-size: 23px;
+}
+
+#info span
+{
+    font-size: 17px;
+}
+
+#info .input-form
+{
+    margin-top: 40px;
 }
