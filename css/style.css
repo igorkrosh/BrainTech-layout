@@ -407,3 +407,37 @@ button:focus
 {
     margin-top: 40px;
 }
+
+footer
+{
+    background-color: #ffffff;
+    font-size: 13px;
+    padding: 60px;
+}
+
+footer h4
+{
+    font-weight: 900;
+    font-size: 14px;
+}
+
+footer .footer-text p:first-child
+{
+    margin-top: 45px;
+    margin-bottom: 55px;
+}
+
+footer .footer-text p
+{
+    margin-bottom: 35px;
+}
+
+footer .footer-text p:last-child
+{
+    margin-bottom: 0;
+}
+
+footer .footer-text b
+{
+    font-weight: 900;
+}
