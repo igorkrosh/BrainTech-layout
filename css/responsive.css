@@ -177,3 +177,112 @@
         width: 45%;
     }
 }
+
+@media (max-width: 575.98px) 
+{
+    #first-banner .row
+    {
+        margin: 0;
+    }
+
+    .packets-wrapper .packet
+    {
+        width: 100%;
+    }
+
+    .input-form
+    {
+        width: 300px
+    }
+
+    .navbar .container
+    {
+        padding: 0;
+    }
+
+    .navbar
+    {
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+
+    .logo-icon img
+    {
+        margin-right: 5px;
+    }
+
+    .navbar-brand
+    {
+        margin: 0;
+    }
+
+    .navbar-brand .logo-text
+    {
+        font-size: 11px;
+    }
+
+    .navbar-brand .logo-text span
+    {
+        font-size: 15px;
+    }
+    .btn-green.small
+    {
+        font-size: 12px;
+        padding: 10px 15px;
+    }
+
+    #first-banner .first-text
+    {
+        line-height: 35px;
+        text-align: center;
+    }
+
+    #first-banner .second-text b
+    {
+        font-size: 40px;
+    }
+
+    #first-banner .second-text
+    {
+        text-align: center;
+        margin-bottom: 25px;
+    }
+
+    #first-banner .container
+    {
+        text-align: center;
+    }
+
+    #mobile-app .col-img
+    {
+        display: none;
+    }
+
+    .input-form
+    {
+        background: none;
+        display: block;
+        padding: 0;
+        text-align: center;
+    }
+
+    .input-form input
+    {
+        width: 85%;
+        display: block;
+        margin: auto;
+        padding: 25px;
+        border-radius: 25px;
+        margin-bottom: 25px;
+    }
+
+    #info
+    {
+        margin-bottom: 25px;
+    }
+
+    footer
+    {
+        padding: 25px 15px;
+    }
+}
