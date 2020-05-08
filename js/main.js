@@ -1,6 +1,7 @@
 $(document).ready(function () {
     SetLogoAnimation()
     new WOW().init()
+    var lightbox = $('#how-to-start .step-img').simpleLightbox();
 })
 
 function SetLogoAnimation()
