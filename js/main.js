@@ -1,5 +1,6 @@
 $(document).ready(function () {
     SetLogoAnimation()
+    new WOW().init()
 })
 
 function SetLogoAnimation()
@@ -13,6 +14,5 @@ function SetLogoAnimation()
                 logoIcon.removeClass("bouncing")
             }, 1000)
         }
-
     })
 }
