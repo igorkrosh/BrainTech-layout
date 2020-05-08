@@ -39,6 +39,12 @@ button:focus
     transition: 0.5s;
 }
 
+.btn-green:hover
+{
+    text-decoration: inherit;
+    color: inherit;
+}
+
 .btn-green.small
 {
     font-size: 14px;
