@@ -298,3 +298,48 @@ button:focus
 {
     width: 200px;
 }
+
+#how-to-start .step-count
+{
+    color: #d3d3d3;
+    font-size: 200px;
+    display: block;
+    font-weight: 900;
+}
+
+#how-to-start .step-description
+{
+    line-height: 30px;
+}
+
+#how-to-start .step-description a
+{
+    color: #77c344;
+    text-decoration: underline;
+    transition: 0.5s;
+}
+
+#how-to-start .step-description a:hover
+{
+    color: #3a95d4;
+}
+
+#how-to-start .step-description b
+{
+    font-weight: 900;
+}
+
+#how-to-start .step-wrapper:nth-child(2), #how-to-start .step-wrapper:nth-child(3)
+{
+    padding: 45px 0;    
+}
+
+#how-to-start .step-wrapper:nth-child(2)
+{
+    background-color: #e9e9e9;
+}
+
+#how-to-start .step-wrapper:nth-child(3)
+{
+    background-color: #f2f2f2;
+}
