@@ -41,3 +41,109 @@
         width: auto;
     }
 }
+
+@media (max-width: 991.98px) 
+{
+    #first-banner .container
+    {
+        background: url(../img/clouds.png) no-repeat 140% 60%;
+        
+    }
+
+    #first-banner
+    {
+        background: url("../img/phone.png") no-repeat 118% 25px;
+        background-color: #3a95d4;
+        background-size: 45%;
+    }
+
+    #first-banner .first-text b
+    {
+        font-size: 28px;
+    }
+
+    #first-banner .first-text img
+    {
+        margin: 0;
+    }
+
+    #first-banner .second-text b
+    {
+        font-size: 45px;
+    }
+
+    #what-is .description
+    {
+        order: 1;
+        margin-top: 55px;
+    }
+
+    #what-is .description h2
+    {
+        text-align: center;
+    }
+
+    .protection-wrapper
+    {
+        justify-content: space-around;
+    }
+
+    .protection-wrapper .protection
+    {
+        margin: 15px;
+    }
+
+    #investment-protection
+    {
+        padding-bottom: 75px;
+    }
+
+    .packets-wrapper .packet
+    {
+        padding: 15px;
+        margin: 15px 0px;
+    }
+
+    .packets-wrapper .packet p
+    {
+        margin-bottom: 15px;
+        font-size: 14px;
+    }
+
+    .packets-wrapper .packet .packet-price
+    {
+        margin-bottom: 15px;    
+    }
+
+    #how-to-start .step-wrapper img
+    {
+        margin-top: 70px;
+    }
+
+    #info .col-sm-12
+    {
+        text-align: center;
+        margin-bottom: 35px;
+    }
+
+    #how-to-start .step-wrapper .col-12
+    {
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+
+    #how-to-start .step-wrapper img
+    {
+        margin: 0;
+        width: 80%;
+    }
+}
+
+@media (max-width: 767.98px) 
+{
+    #first-banner, #first-banner .container
+    {
+        background-image: none;
+    }
+}
