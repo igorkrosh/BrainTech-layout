@@ -146,4 +146,34 @@
     {
         background-image: none;
     }
+
+    #first-banner .container
+    {
+        padding: 15px 0 35px 0;
+    }
+
+    .protection-wrapper .protection
+    {
+        width: 225px;
+    }
+
+    .protection-wrapper .protection:last-child
+    {
+        width: 350px;
+    }
+
+    .packets-wrapper .packet:last-child
+    {
+        width: 350px;
+    }
+
+    #how-to-start .step-wrapper img
+    {
+        width: 100%;
+    }
+
+    #mobile-app .link-wrapper img
+    {
+        width: 45%;
+    }
 }
